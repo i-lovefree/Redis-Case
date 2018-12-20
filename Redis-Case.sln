@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.control", "Redis.control\Redis.control.csproj", "{5E8812C0-7F96-47BA-9965-187F37D41805}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Control", "Redis.control\Redis.Control.csproj", "{5E8812C0-7F96-47BA-9965-187F37D41805}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cache.Demo", "CacheDemo\Cache.Demo.csproj", "{FAAE39CF-50B9-4B37-8A9A-BC36F052309F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Library", "Redis.Library\Redis.Library.csproj", "{1408E151-EA56-44E6-AC9C-4BE31B49F1A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Test", "Redistest\Redis.Test.csproj", "{1E822391-EEF3-4AE5-B801-97022E9DDA0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{5E8812C0-7F96-47BA-9965-187F37D41805}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E8812C0-7F96-47BA-9965-187F37D41805}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E8812C0-7F96-47BA-9965-187F37D41805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAAE39CF-50B9-4B37-8A9A-BC36F052309F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAAE39CF-50B9-4B37-8A9A-BC36F052309F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAAE39CF-50B9-4B37-8A9A-BC36F052309F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAAE39CF-50B9-4B37-8A9A-BC36F052309F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1408E151-EA56-44E6-AC9C-4BE31B49F1A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1408E151-EA56-44E6-AC9C-4BE31B49F1A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1408E151-EA56-44E6-AC9C-4BE31B49F1A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1408E151-EA56-44E6-AC9C-4BE31B49F1A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E822391-EEF3-4AE5-B801-97022E9DDA0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E822391-EEF3-4AE5-B801-97022E9DDA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E822391-EEF3-4AE5-B801-97022E9DDA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E822391-EEF3-4AE5-B801-97022E9DDA0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

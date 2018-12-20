@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="getcache.aspx.cs" Inherits="CacheDemo.getcache" %>
